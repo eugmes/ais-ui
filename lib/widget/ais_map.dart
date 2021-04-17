@@ -28,7 +28,6 @@ class AISMap extends StatelessWidget {
         TileLayerOptions(
           urlTemplate: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
           subdomains: ['a', 'b', 'c'],
-          tileProvider: CachedNetworkTileProvider(),
         ),
         AISTargetsPluginOptions(),
         ScaleLayerPluginOptions(
